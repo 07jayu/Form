@@ -1,0 +1,76 @@
+body {
+    background-color: #ede7f6;
+    font-family: "Robot",Sans-serif;
+}
+img {
+    height: 75px;
+    margin: 15px 0 0 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.title{
+	height: 150px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 12px solid cornflowerblue;
+	padding: 25px;
+}
+.required{
+    font-size: 13px;
+    color: red;
+}
+.name-div {
+	height: 150px;
+	width: 650px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.input-div select{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.input-gen{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color:cornflowerblue;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}

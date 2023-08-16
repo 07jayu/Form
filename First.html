@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Logo.png" type="x-icon" rel="shortcut icon">
+    <link href="First.css" rel="Stylesheet" type="text/css">
+    <title>STUDEND FORM</title>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" >
+    </header>
+<form method="get" action="Res.html"> 
+    <div class="form">
+        <div class="title">
+            <h2>STUDENT FORM</h2>
+        </div>
+
+        <div class="name-div">
+			<div class="name">First Name : <span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="Firstname" placeholder="First Name"></div>
+		</div>
+
+        <div class="name-div">
+			<div class="name">Last Name : <span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="Lastname" placeholder="Last Name"></div>
+		</div>
+
+        <div class="name-div"> 
+            <div class="name">EN Number: <span class="required"></span> </div>
+                <div class="input-div"><input type="number" name="ENnumber" placeholder="En Number">
+            </div>
+        </div>
+
+        <div class="name-div"> 
+            <div class="name">Mobile Number: <span class="required"></span> </div>
+                <div class="input-div"><input type="number" name="Mobilenumber" placeholder="Mobile Number">
+            </div>
+        </div>
+
+        <div class="name-div"> 
+            <div class="name">Email : <span class="required"></span> </div>
+                <div class="input-div"><input type="email" name="Email" placeholder="Xyz123@gmail.com">
+            </div>
+        </div>
+
+        <div class="name-div">
+            <div class="name">Gender : <span class="required"></span></div>
+            <div class="input-gen">
+                <input type="radio" name="Gender">Male
+                <br>
+                <input type="radio" name="Gender">Female
+                <br>
+                <input type="radio" name="Gender">Other
+            </div>
+        </div>
+
+        <div class="name-div">
+            <div class="name" name="Fild">Fild : <span class="required"></span></div>
+            <div class="input-div">
+                <select id="mytext">
+                    <option>--Select Fild--</option>
+                    <option>BCA</option>
+                    <option>MBA</option>
+                    <option>Bcom</option>
+                    <option>BA</option>
+                    <option>BBA</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="name-div">
+            <div class="name" name="Sem">Sem : <span class="required"></span></div>
+            <div class="input-div">
+                <select>
+                    <option>--Select Sem--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="name-div">
+            <div class="name" name="Div">Div : <span class="required"></span></div>
+            <div class="input-div">
+                <select>
+                    <option>--Select Div--</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="name-div">
+            <div class="name" name="Country">Country : <span class="required"></span></div>
+            <div class="input-div">
+                <select>
+                    <option>--Select Country--</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Landon</option>
+                    <option>Pakistan</option>
+                    <option>Dubai</option>
+                </select>
+            </div>
+        </div>
+    </form>
+        <div>
+            <input type="submit" class="btn" name="Submit">
+        </div>
+    </div>
+ 
+    <script>
+        function passval(){
+            var selecttext=document.getElementById("mytext").value;
+            localStorage.setItem("ddvalue",selecttext);
+            return true;
+        }
+    </script>
+</body>
+</html>
